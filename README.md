@@ -16,4 +16,4 @@ sudo systemctl start bluetooth
 ```
 
 ### 2. Enable the Bluetooth Service
-`sudo systemctl enable bluetooth`
+```sudo systemctl enable bluetooth```
