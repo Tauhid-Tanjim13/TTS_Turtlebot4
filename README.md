@@ -13,5 +13,7 @@ If `bluetoothctl` is stuck on the message `Waiting to connect to bluetoothd...`,
 If the service is not running (inactive or failed), start it using
 ```
 sudo systemctl start bluetooth
-
 ```
+
+### 2. Enable the Bluetooth Service
+`sudo systemctl enable bluetooth`
