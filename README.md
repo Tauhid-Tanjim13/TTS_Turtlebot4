@@ -39,13 +39,10 @@ If the output shows Soft blocked: yes or Hard blocked: yes, unblock it:
 ```
 sudo rfkill unblock bluetooth
 ```
-6. Reboot the System
+### 6. Reboot the System
 If the above steps do not resolve the issue, try rebooting the system:
 
-bash
-Copy code
-sudo reboot
-7. Reinstall Bluetooth Packages (as a last resort)
+### 7. Reinstall Bluetooth Packages (as a last resort)
 If none of the above steps work, try reinstalling the Bluetooth stack:
 ```
 sudo apt-get remove bluez
