@@ -8,5 +8,5 @@ If `bluetoothctl` is stuck on the message `Waiting to connect to bluetoothd...`,
 ### 1. Check if the Bluetooth Service is Running
    Verify the status of the Bluetooth service with:
    ```bash
-   sudo systemctl status bluetooth
+   sudo systemctl status bluetooth```
 If the service is not running (inactive or failed), start it using
